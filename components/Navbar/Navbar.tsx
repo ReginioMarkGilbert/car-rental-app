@@ -27,8 +27,8 @@ const Navbar = () => {
 
           <div className="flex items-center space-x-4">
             <Link
-              href="/login"
-              className="hidden md:block text-white px-4 py-2 rounded-full border border-white/30
+              href="/auth"
+              className="text-white px-4 py-2 rounded-full border border-white/30
                        hover:bg-white hover:text-gray-900 transition-all duration-300"
             >
               Sign In

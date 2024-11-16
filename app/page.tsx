@@ -1,7 +1,9 @@
-import Hero from './components/Hero/Hero';
-import FeaturedVehicles from './components/FeaturedVehicles/FeaturedVehicles';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+"use client";
+
+import Hero from '../components/Hero/Hero';
+import FeaturedVehicles from '../components/FeaturedVehicles/FeaturedVehicles';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 
 export default function Home() {
    return (
